@@ -1,12 +1,3 @@
-cmake_minimum_required(VERSION 2.8)
-
-message(STATUS "Conan FlatBuffers Wrapper")
-
-include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
-conan_basic_setup()
-
-if (WIN32 AND MSVC AND FLATBUFFERS_BUILD_SHAREDLIB)
-    set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
-endif(WIN32 AND MSVC AND FLATBUFFERS_BUILD_SHAREDLIB)
-
-include(${CMAKE_SOURCE_DIR}/CMakeListsOriginal.txt)
+version https://git-lfs.github.com/spec/v1
+oid sha256:8c0d39c0ce89b306434509e6fdd9f9b8068d8ffc9feb2a01b7559f777536f45b
+size 357

@@ -1,18 +1,3 @@
-{
-  "name": "google/flatbuffers",
-  "type": "library",
-  "description": "FlatBuffers for PHP",
-  "keywords": ["google", "flatbuffers", "serialization"],
-  "homepage": "https://github.com/google/flatbuffers",
-  "license": "Apache-2.0",
-  "require": {
-    "php": ">=5.4"
-  },
-  "require-dev": {
-  },
-  "autoload": {
-    "psr-4": {
-      "Google\\FlatBuffers\\": "php"
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4ba1b7b343df6f018c0473959f9932f48eee143ad3fc11ad50432368ca43b535
+size 377

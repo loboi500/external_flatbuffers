@@ -1,18 +1,3 @@
-{
-  "presubmit": [
-    {
-      "name": "TextClassifierServiceTest",
-      "options": [
-        {
-          "exclude-annotation": "androidx.test.filters.FlakyTest"
-        }
-      ]
-    },
-    {
-       "name": "bluetooth_flatbuffer_tests"
-    },
-    {
-       "name": "CtsTfliteNnapiDelegateTestCases"
-    }
- ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ee26e8f7361cf18486659d89fdbcf535b9ba57aaf734cdae2007f05675c62846
+size 311

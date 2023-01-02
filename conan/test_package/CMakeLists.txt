@@ -1,9 +1,3 @@
-project(test_package CXX)
-cmake_minimum_required(VERSION 2.8.11)
-
-include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
-conan_basic_setup()
-
-add_executable(${PROJECT_NAME} test_package.cpp)
-target_link_libraries(${PROJECT_NAME} ${CONAN_LIBS})
-set_property(TARGET ${PROJECT_NAME} PROPERTY CXX_STANDARD 11)
+version https://git-lfs.github.com/spec/v1
+oid sha256:8b18ff0ea942cc3f62c964cdadc9e45b5475f5d01f71339cdde1b1903fc563a4
+size 301

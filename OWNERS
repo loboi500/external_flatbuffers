@@ -1,4 +1,3 @@
-# The only change here should be just mirroring upstream.
-# wvo@google.com # upstream maintainer
-# smiles@google.com # upstream maintainer
-include platform/system/core:/janitors/OWNERS
+version https://git-lfs.github.com/spec/v1
+oid sha256:109d3e85f90b4515101d4b7035b71e2acc379cd72a856d05ddc0c1a5ecd6f37c
+size 185

@@ -1,21 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
-from conans import ConanFile, CMake
-import os
-
-
-class TestPackageConan(ConanFile):
-    settings = "os", "compiler", "build_type", "arch"
-    generators = "cmake"
-
-    def build(self):
-        cmake = CMake(self)
-        cmake.configure()
-        cmake.build()
-
-    def test(self):
-        bin_path = os.path.join("bin", "test_package")
-        self.run(bin_path, run_environment=True)
-        self.run("flatc --version", run_environment=True)
-        self.run("flathash fnv1_16 conan", run_environment=True)
+version https://git-lfs.github.com/spec/v1
+oid sha256:5423efaa417ed9be33b2f9464bc222d69347742f02a2c0fc34cb489dd0394663
+size 555
